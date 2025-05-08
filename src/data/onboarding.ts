@@ -4,10 +4,10 @@ import type { CloudStatus } from "./cloud";
 
 export interface InstallationType {
   installation_type:
-    | "Home Assistant Operating System"
-    | "Home Assistant Container"
-    | "Home Assistant Supervised"
-    | "Home Assistant Core"
+    | "Usync Assistant Operating System"
+    | "Usync Assistant Container"
+    | "Usync Assistant Supervised"
+    | "Usync Assistant Core"
     | "Unknown";
 }
 

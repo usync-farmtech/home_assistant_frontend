@@ -1,4 +1,5 @@
-"""Frontend for Home Assistant."""
+"""Frontend for Usync Assistant."""
+
 from pathlib import Path
 
 

@@ -147,7 +147,7 @@ const createRspackConfig = ({
               : require.resolve(resource);
           } catch (err) {
             console.error(
-              "Error in Home Assistant ignore plugin",
+              "Error in Usync Assistant ignore plugin",
               resource,
               context
             );

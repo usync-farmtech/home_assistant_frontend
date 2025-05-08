@@ -145,7 +145,7 @@ export default {
       humidity: 92,
       pressure: 1099,
       wind_speed: 0.5,
-      attribution: "Powered by Home Assistant",
+      attribution: "Powered by Usync Assistant",
       forecast: [
         {
           datetime: "2018-07-19T16:00:45.924736",
@@ -210,7 +210,7 @@ export default {
       humidity: 54,
       pressure: 987,
       wind_speed: 4.8,
-      attribution: "Powered by Home Assistant",
+      attribution: "Powered by Usync Assistant",
       forecast: [
         {
           datetime: "2018-07-19T16:00:45.925119",
