@@ -25,7 +25,7 @@ class HaInitPage extends LitElement {
             ? html`
                 <p>
                   It is possible that you are seeing this screen because your
-                  Home Assistant is not currently connected. You can ask it to
+                  Usync Assistant is not currently connected. You can ask it to
                   come online from your
                   <a href="https://account.nabucasa.com/"
                     >Nabu Casa account page</a
@@ -41,8 +41,8 @@ class HaInitPage extends LitElement {
           <div id="loading-text">
             ${this.migration
               ? html`
-                  Database upgrade is in progress, Home Assistant will not start
-                  until the upgrade is completed.
+                  Database upgrade is in progress, Usync Assistant will not
+                  start until the upgrade is completed.
                   <br /><br />
                   The upgrade may need a long time to complete, please be
                   patient.

@@ -139,7 +139,7 @@ const tryDescribeTrigger = (
     );
   }
 
-  // Home Assistant Trigger
+  // Usync Assistant Trigger
   if (trigger.trigger === "homeassistant" && trigger.event) {
     return hass.localize(
       trigger.event === "start"

@@ -57,7 +57,7 @@ export class HassioMain extends SupervisorBaseElement {
     );
 
     // Paulus - May 17, 2021
-    // Convert the <a> tags to native nav in Home Assistant < 2021.6
+    // Convert the <a> tags to native nav in Usync Assistant < 2021.6
     document.body.addEventListener("click", (ev) => {
       const href = isNavigationClick(ev);
       if (href) {

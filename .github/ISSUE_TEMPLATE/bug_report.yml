@@ -1,5 +1,5 @@
 name: Report a bug with the UI / Dashboards
-description: Report an issue related to the Home Assistant frontend.
+description: Report an issue related to the Usync Assistant frontend.
 labels: bug
 body:
   - type: markdown
@@ -18,7 +18,7 @@ body:
       label: Checklist
       description: Please verify that you've followed these steps
       options:
-        - label: I have updated to the latest available Home Assistant version.
+        - label: I have updated to the latest available Usync Assistant version.
           required: true
         - label: I have cleared the cache of my browser.
           required: true
@@ -62,13 +62,13 @@ body:
     validations:
       required: true
     attributes:
-      label: What version of Home Assistant Core has the issue?
+      label: What version of Usync Assistant Core has the issue?
       placeholder: core-
       description: >
         Can be found in: [Settings -> About](https://my.home-assistant.io/redirect/info/).
   - type: input
     attributes:
-      label: What was the last working version of Home Assistant Core?
+      label: What was the last working version of Usync Assistant Core?
       placeholder: core-
       description: >
         If known, otherwise leave blank.

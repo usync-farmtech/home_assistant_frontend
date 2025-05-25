@@ -55,9 +55,9 @@ declare global {
 }
 
 const SUPERVISOR_UPDATE_NAMES = {
-  core: "Home Assistant Core",
-  os: "Home Assistant Operating System",
-  supervisor: "Home Assistant Supervisor",
+  core: "Usync Assistant Core",
+  os: "Usync Assistant Operating System",
+  supervisor: "Usync Assistant Supervisor",
 };
 
 type UpdateType = "os" | "supervisor" | "core" | "addon";

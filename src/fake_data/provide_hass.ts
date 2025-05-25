@@ -163,7 +163,7 @@ export const provideHass = (
   const noop = () => undefined;
 
   const hassObj: MockHomeAssistant = {
-    // Home Assistant properties
+    // Usync Assistant properties
     auth: {
       data: {
         hassUrl: "",
