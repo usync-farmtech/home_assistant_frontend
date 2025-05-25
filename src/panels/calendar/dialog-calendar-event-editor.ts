@@ -71,7 +71,7 @@ class DialogCalendarEventEditor extends LitElement {
 
   // Dates are displayed in the timezone according to the user's profile
   // which may be different from the Usync Assistant timezone. When
-  // events are persisted, they are relative to the Home Assistant
+  // events are persisted, they are relative to the Usync Assistant
   // timezone, but floating without a timezone.
   private _timeZone?: string;
 

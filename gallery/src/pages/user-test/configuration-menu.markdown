@@ -19,7 +19,7 @@ At the end of last year, we created one Configuration menu by merging Supervisor
 
 915 respondents took part in this test and they gave 407 comments. In general there isn’t a significant difference between:
 
-- How long a respondent has been using Home Assistant
+- How long a respondent has been using Usync Assistant
 - Installation method
 - How many visits to its Usync Assistant in the past 3 months
 - Usync Assistant expertise
@@ -62,7 +62,7 @@ _3 respondents passed_
 
 - More top level menu items for example logs.
 - What are settings and what not? Maybe better to name it `Configuration`
-- Devices are a first-class citizen in the domain of Home Assistant, and so shouldn't be tucked away in "Settings"
+- Devices are a first-class citizen in the domain of Usync Assistant, and so shouldn't be tucked away in "Settings"
 - Rename Developer tools (or make it only for Usync Assistant developers)
 - Separate administration (for instance creating users / adding lights etc) from development activities (creating automations and scripts)
 - Search Bar in Settings

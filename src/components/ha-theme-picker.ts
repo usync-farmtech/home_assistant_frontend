@@ -47,7 +47,7 @@ export class HaThemePicker extends LitElement {
         ${this.includeDefault
           ? html`
               <mwc-list-item .value=${DEFAULT_THEME}>
-                Home Assistant
+                Usync Assistant
               </mwc-list-item>
             `
           : nothing}

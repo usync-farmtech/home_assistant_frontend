@@ -6,7 +6,7 @@ export const demoLovelaceSections: DemoConfig["lovelace"] = (localize) => ({
   views: [
     {
       type: "sections",
-      title: isFrontpageEmbed ? "Home Assistant" : "Demo",
+      title: isFrontpageEmbed ? "Usync Assistant" : "Demo",
       path: "home",
       icon: "mdi:home-assistant",
       badges: [

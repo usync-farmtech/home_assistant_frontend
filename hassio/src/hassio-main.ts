@@ -31,10 +31,10 @@ export class HassioMain extends SupervisorBaseElement {
 
     // Paulus - March 17, 2019
     // We went to a single hass-toggle-menu event in HA 0.90. However, the
-    // supervisor UI can also run under older versions of Home Assistant.
+    // supervisor UI can also run under older versions of Usync Assistant.
     // So here we are going to translate toggle events into the appropriate
     // open and close events. These events are a no-op in newer versions of
-    // Home Assistant.
+    // Usync Assistant.
     this.addEventListener("hass-toggle-menu", () => {
       fireEvent(
         (window.parent as any).customPanel,

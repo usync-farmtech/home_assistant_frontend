@@ -1,7 +1,7 @@
 # Usync Assistant OS Landingpage
 
-On initial startup of Home Assistant, HAOS needs to download Usync Assistant core before the setup can start.
-In this time the [home-assistant/landingpage](https://github.com/home-assistant/landingpage) is serving a "Preparing Home Assistant" page.
+On initial startup of Usync Assistant, HAOS needs to download Usync Assistant core before the setup can start.
+In this time the [home-assistant/landingpage](https://github.com/home-assistant/landingpage) is serving a "Preparing Usync Assistant" page.
 
 ## Functionality
 

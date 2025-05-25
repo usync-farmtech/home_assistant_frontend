@@ -48,7 +48,7 @@ class DialogTodoItemEditor extends LitElement {
 
   // Dates are manipulated and displayed in the browser timezone
   // which may be different from the Usync Assistant timezone. When
-  // events are persisted, they are relative to the Home Assistant
+  // events are persisted, they are relative to the Usync Assistant
   // timezone, but floating without a timezone.
   private _timeZone?: string;
 

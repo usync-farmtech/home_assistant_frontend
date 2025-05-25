@@ -1,11 +1,11 @@
 # Usync Assistant Frontend
 
-This is the repository for the official [Home Assistant](https://home-assistant.io) frontend.
+This is the repository for the official [Usync Assistant](https://home-assistant.io) frontend.
 
 [![Screenshot of the frontend](https://raw.githubusercontent.com/home-assistant/frontend/master/docs/screenshot.png)](https://demo.home-assistant.io/)
 
-- [View demo of Home Assistant](https://demo.home-assistant.io/)
-- [More information about Home Assistant](https://home-assistant.io)
+- [View demo of Usync Assistant](https://demo.home-assistant.io/)
+- [More information about Usync Assistant](https://home-assistant.io)
 - [Frontend development instructions](https://developers.home-assistant.io/docs/frontend/development/)
 
 ## Development

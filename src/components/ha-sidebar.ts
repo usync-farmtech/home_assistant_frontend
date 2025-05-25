@@ -377,7 +377,7 @@ class HaSidebar extends SubscribeMixin(LitElement) {
         ? html`<mwc-button outlined @click=${this._closeEditMode}>
             ${this.hass.localize("ui.sidebar.done")}
           </mwc-button>`
-        : html`<div class="title">Home Assistant</div>`}
+        : html`<div class="title">Usync Assistant</div>`}
     </div>`;
   }
 
@@ -408,8 +408,8 @@ class HaSidebar extends SubscribeMixin(LitElement) {
         @iron-activate=${preventDefault}
       >
         ${this.editMode
-          ? this._renderPanelsEdit(beforeSpacer)
-          : this._renderPanels(beforeSpacer)}
+        ? this._renderPanelsEdit(beforeSpacer)
+        : this._renderPanels(beforeSpacer)}
         ${this._renderSpacer()}
         ${this._renderPanels(afterSpacer)}
         ${this._renderExternalConfiguration()}

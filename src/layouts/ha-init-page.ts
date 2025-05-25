@@ -16,7 +16,7 @@ class HaInitPage extends LitElement {
   protected render() {
     return this.error
       ? html`
-          <p>Unable to connect to Home Assistant.</p>
+          <p>Unable to connect to Usync Assistant.</p>
           <p class="retry-text">
             Retrying in ${this._retryInSeconds} seconds...
           </p>

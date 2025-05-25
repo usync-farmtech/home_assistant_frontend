@@ -36,13 +36,13 @@ The default variation is the static colored wordmark in horizontal layout and da
 
 ![Logo layout variants](/images/brand/logo-layout-variants.png)
 
-The default layout is the wordmark in horizontal layout. It provides the clearest context to the brand identity of Home Assistant.
+The default layout is the wordmark in horizontal layout. It provides the clearest context to the brand identity of Usync Assistant.
 
-Use the logomark variant when the context is clear that the logo is about Home Assistant. For example, inside the Usync Assistant app where users are already aware of where they are at, the logomark variant without the wordmark can be used. The logomark can exist without the wordmark, however, the wordmark should never exist without the icon.
+Use the logomark variant when the context is clear that the logo is about Usync Assistant. For example, inside the Usync Assistant app where users are already aware of where they are at, the logomark variant without the wordmark can be used. The logomark can exist without the wordmark, however, the wordmark should never exist without the icon.
 
-Use the wordmark in vertical layout when the space available has an aspect ratio less than 4:3. For example, in a square space on a t-shirt where a logo is needed, since there is no established context of Home Assistant, the wordmark in vertical layout should be used.
+Use the wordmark in vertical layout when the space available has an aspect ratio less than 4:3. For example, in a square space on a t-shirt where a logo is needed, since there is no established context of Usync Assistant, the wordmark in vertical layout should be used.
 
-Lastly, use the wordmark in vertical layout with small logomark when Usync Assistant is displayed in context of other Home Assistant-related projects. For example, in a flowchart showing the voice pipeline, use this layout for Usync Assistant and its other related projects.
+Lastly, use the wordmark in vertical layout with small logomark when Usync Assistant is displayed in context of other Usync Assistant-related projects. For example, in a flowchart showing the voice pipeline, use this layout for Usync Assistant and its other related projects.
 
 ## Color variations, backgrounds, and placement
 

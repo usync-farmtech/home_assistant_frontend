@@ -1469,7 +1469,7 @@
           "switch_as_x_confirm": "This switch will be hidden and a new {domain} will be added. Your existing configurations using the switch will continue to work.",
           "switch_as_x_remove_confirm": "This {domain} will be removed and the original switch will be visible again. Your existing configurations using the {domain} will no longer work!",
           "switch_as_x_change_confirm": "This {domain_1} will be removed and will be replaced by a new {domain_2}. Your existing configurations using the {domain_1} will no longer work!",
-          "enabled_description": "Disabled entities will not be added to Home Assistant.",
+          "enabled_description": "Disabled entities will not be added to Usync Assistant.",
           "enabled_delay_confirm": "The enabled entities will be added to Usync Assistant in {delay} seconds",
           "enabled_restart_confirm": "Restart Usync Assistant to finish enabling the entities",
           "hidden_explanation": "Hidden entities will not be included in auto-populated dashboards or when their area, device or label is referenced. Their history is still tracked and you can still interact with them with actions.",
@@ -1525,7 +1525,7 @@
         "view_entity": "More info about entity"
       },
       "restart": {
-        "heading": "Restart Home Assistant",
+        "heading": "Restart Usync Assistant",
         "advanced_options": "Advanced options",
         "reload": {
           "title": "Quick reload",
@@ -1534,15 +1534,15 @@
           "failed": "Failed to reload configuration"
         },
         "restart": {
-          "title": "Restart Home Assistant",
+          "title": "Restart Usync Assistant",
           "description": "Interrupts all running automations and scripts.",
-          "confirm_title": "Restart Home Assistant?",
+          "confirm_title": "Restart Usync Assistant?",
           "confirm_description": "This will interrupt all running automations and scripts.",
           "confirm_action": "Restart",
-          "failed": "Failed to restart Home Assistant"
+          "failed": "Failed to restart Usync Assistant"
         },
         "stop": {
-          "confirm_title": "Stop Home Assistant?",
+          "confirm_title": "Stop Usync Assistant?",
           "confirm_description": "This will interrupt all running automations and scripts.",
           "confirm_action": "Stop"
         },
@@ -1570,7 +1570,7 @@
           "confirm_title": "Restart Usync Assistant in safe mode?",
           "confirm_description": "This will restart Usync Assistant without loading any custom integrations and frontend modules.",
           "confirm_action": "Restart",
-          "failed": "Failed to restart Home Assistant"
+          "failed": "Failed to restart Usync Assistant"
         }
       },
       "aliases": {
@@ -1963,7 +1963,7 @@
             "actions": "Actions"
           }
         },
-        "header": "Configure Home Assistant",
+        "header": "Configure Usync Assistant",
         "dashboard": {
           "devices": {
             "main": "Devices & services",
@@ -1979,7 +1979,7 @@
           },
           "supervisor": {
             "main": "Add-ons",
-            "secondary": "Run extra applications next to Home Assistant"
+            "secondary": "Run extra applications next to Usync Assistant"
           },
           "dashboards": {
             "main": "Dashboards",
@@ -2035,7 +2035,7 @@
         },
         "updates": {
           "caption": "Updates",
-          "description": "Manage updates of Home Assistant, add-ons, and devices",
+          "description": "Manage updates of Usync Assistant, add-ons, and devices",
           "no_updates": "No updates available",
           "no_update_entities": {
             "title": "Unable to check for updates",
@@ -2319,7 +2319,7 @@
                 "input_label": "Encryption key"
               },
               "progress": {
-                "restarting": "Restarting Home Assistant",
+                "restarting": "Restarting Usync Assistant",
                 "restoring": "Restoring backup"
               },
               "actions": {
@@ -2526,7 +2526,7 @@
                   "docker_config": "Backing up Docker configuration",
                   "finishing_file": "Finishing backup file",
                   "folders": "Backing up folders",
-                  "home_assistant": "Backing up Home Assistant",
+                  "home_assistant": "Backing up Usync Assistant",
                   "upload_to_agents": "Uploading to locations"
                 },
                 "restore_backup": {
@@ -2534,11 +2534,11 @@
                   "addons": "Restoring add-ons",
                   "await_addon_restarts": "Waiting for add-ons to restart",
                   "await_home_assistant_restart": "Waiting for Usync Assistant to restart",
-                  "check_home_assistant": "Checking Home Assistant",
+                  "check_home_assistant": "Checking Usync Assistant",
                   "docker_config": "Restoring Docker configuration",
                   "download_from_agent": "Downloading from location",
                   "folders": "Restoring folders",
-                  "home_assistant": "Restoring Home Assistant",
+                  "home_assistant": "Restoring Usync Assistant",
                   "remove_delta_addons": "Removing delta add-ons"
                 },
                 "receive_backup": {
@@ -2972,7 +2972,7 @@
           "enable_remote": "[%key:ui::common::enable%]",
           "internal_url_automatic": "Automatic",
           "internal_url_https_error_title": "Invalid local network URL",
-          "internal_url_https_error_description": "You have configured an HTTPS certificate in Home Assistant. This means that your internal URL needs to be set to a domain covered by the certificate.",
+          "internal_url_https_error_description": "You have configured an HTTPS certificate in Usync Assistant. This means that your internal URL needs to be set to a domain covered by the certificate.",
           "internal_url_automatic_description": "Use the configured network settings",
           "internal_url_placeholder": "http://<some IP address>:8123"
         },
@@ -3273,7 +3273,7 @@
                 },
                 "remote_access": {
                   "title": "Remote access",
-                  "text": "Secure remote access to your system while supporting the development of Home Assistant."
+                  "text": "Secure remote access to your system while supporting the development of Usync Assistant."
                 }
               },
               "and_more": "And more",
@@ -3343,7 +3343,7 @@
             "check": {
               "title": "Hello!",
               "secondary": "Over the next couple steps we're going to personalize your voice assistant.",
-              "failed_title": "The voice assistant is unable to connect to Home Assistant",
+              "failed_title": "The voice assistant is unable to connect to Usync Assistant",
               "failed_secondary": "To play audio, the voice assistant device has to connect to Usync Assistant to fetch the files. Our test shows that the device is unable to reach the Usync Assistant server.",
               "help": "Help me",
               "retry": "Retry"
@@ -3477,7 +3477,7 @@
               "author": "By {author}",
               "local": "By you",
               "community": "By the community",
-              "homeassistant": "By Home Assistant"
+              "homeassistant": "By Usync Assistant"
             },
             "discover_blueprint_tip": "Discover more community blueprints"
           },
@@ -3624,7 +3624,7 @@
                   "context_user_picked": "User firing event",
                   "context_user_pick": "Select user",
                   "description": {
-                    "picker": "When an event is being received (event is an advanced concept in Home Assistant).",
+                    "picker": "When an event is being received (event is an advanced concept in Usync Assistant).",
                     "full": "When {eventTypes} event is fired"
                   }
                 },
@@ -3653,7 +3653,7 @@
                   }
                 },
                 "homeassistant": {
-                  "label": "Home Assistant",
+                  "label": "Usync Assistant",
                   "event": "Event:",
                   "start": "Start",
                   "shutdown": "Shutdown",
@@ -4085,7 +4085,7 @@
                   "event": "[%key:ui::panel::config::automation::editor::triggers::type::event::event_type%]",
                   "event_data": "[%key:ui::panel::config::automation::editor::triggers::type::event::event_data%]",
                   "description": {
-                    "picker": "Fire an event manually (event is an advanced concept in Home Assistant).",
+                    "picker": "Fire an event manually (event is an advanced concept in Usync Assistant).",
                     "full": "Manually fire event {name}",
                     "template": "based on a template"
                   }
@@ -4534,7 +4534,7 @@
             "title": "Cloud login",
             "introduction": "Usync Assistant Cloud provides you with a secure remote connection to your instance while away from home. It also allows you to connect with cloud-only services: Amazon Alexa and Google Assistant.",
             "introduction2": "This service is run by our partner ",
-            "introduction2a": ", a company founded by the founders of Home Assistant.",
+            "introduction2a": ", a company founded by the founders of Usync Assistant.",
             "introduction3": "Usync Assistant Cloud is a subscription service with a free one month trial. No payment information necessary.",
             "learn_more_link": "Learn more about Usync Assistant Cloud",
             "dismiss": "Dismiss",
@@ -4576,7 +4576,7 @@
             "feature_amazon_alexa": "Integration with Amazon Alexa",
             "feature_webhook_apps": "Easy integration with webhook-based apps like OwnTracks",
             "information3": "This service is run by our partner ",
-            "information3a": ", a company founded by the founders of Home Assistant.",
+            "information3a": ", a company founded by the founders of Usync Assistant.",
             "information4": "By registering an account you agree to the following terms and conditions.",
             "link_terms_conditions": "Terms and conditions",
             "link_privacy_policy": "Privacy policy",
@@ -4678,7 +4678,7 @@
               "title": "Google Assistant",
               "info": "With the Google Assistant integration for Usync Assistant Cloud, you'll be able to control all your Usync Assistant devices via any Google Assistant-enabled device.",
               "http_use_ssl_warning_title": "Local communication unavailable",
-              "http_use_ssl_warning_text": "Google devices will not be able to talk locally with Home Assistant, because you have configured an SSL certificate for your HTTP integration.",
+              "http_use_ssl_warning_text": "Google devices will not be able to talk locally with Usync Assistant, because you have configured an SSL certificate for your HTTP integration.",
               "enable_ha_skill": "Activate the Usync Assistant Cloud skill for Google Assistant",
               "config_documentation": "Configuration documentation",
               "enable_state_reporting": "Enable state reporting",
@@ -4750,7 +4750,7 @@
             "integration": "Integration",
             "config_entry": "Config entry"
           },
-          "enabled_description": "Disabled devices will not be shown and entities belonging to the device will be disabled and not added to Home Assistant.",
+          "enabled_description": "Disabled devices will not be shown and entities belonging to the device will be disabled and not added to Usync Assistant.",
           "open_configuration_url": "Visit",
           "set_up_voice_assistant": "Set up voice assistant",
           "download_diagnostics": "Download diagnostics",
@@ -4880,7 +4880,7 @@
           "picker": {
             "header": "Entities",
             "introduction": "Usync Assistant keeps a registry of every entity it has ever seen that can be uniquely identified. Each of these entities will have an entity ID assigned which will be reserved for just this entity.",
-            "introduction2": "Use the entity registry to override the name, change the entity ID or remove the entry from Home Assistant.",
+            "introduction2": "Use the entity registry to override the name, change the entity ID or remove the entry from Usync Assistant.",
             "search": "Search {number} {number, plural,\n  one {entity}\n  other {entities}\n}",
             "unnamed_entity": "Unnamed entity",
             "filtering_by_config_entry": "Filtering by config entry",
@@ -4916,7 +4916,7 @@
             "disable_selected": {
               "button": "Disable selected",
               "confirm_title": "Do you want to disable {number} {number, plural,\n  one {entity}\n  other {entities}\n}?",
-              "confirm_text": "Disabled entities will not be added to Home Assistant."
+              "confirm_text": "Disabled entities will not be added to Usync Assistant."
             },
             "delete_selected": {
               "button": "Delete selected",
@@ -4937,7 +4937,7 @@
         "person": {
           "caption": "People",
           "description": "Manage the people that Usync Assistant tracks",
-          "introduction": "Here you can add each person of interest in Home Assistant.",
+          "introduction": "Here you can add each person of interest in Usync Assistant.",
           "note_about_persons_configured_in_yaml": "People configured via configuration.yaml cannot be edited via the UI.",
           "learn_more": "Learn more about people",
           "no_persons_created_yet": "Looks like you have not added any people yet.",
@@ -5171,7 +5171,7 @@
             "yaml_only_title": "This integration cannot be added from the UI",
             "yaml_only": "You can add this integration by adding it to your ''configuration.yaml''. See the documentation for more information.",
             "open_documentation": "Open documentation",
-            "no_config_flow": "This integration does not support configuration via the UI. If you followed this link from the Usync Assistant website, make sure you run the latest version of Home Assistant.",
+            "no_config_flow": "This integration does not support configuration via the UI. If you followed this link from the Usync Assistant website, make sure you run the latest version of Usync Assistant.",
             "not_all_required_fields": "Not all required fields are filled in.",
             "error_saving_area": "Error saving area: {error}",
             "created_config": "Created configuration for {name}.",
@@ -5186,7 +5186,7 @@
             },
             "error": "Error",
             "could_not_load": "Config flow could not be loaded",
-            "not_loaded": "The integration could not be loaded, try to restart Home Assistant.",
+            "not_loaded": "The integration could not be loaded, try to restart Usync Assistant.",
             "supported_brand_flow": "Support for {supported_brand} devices is provided by {flow_domain_name}. Do you want to continue?",
             "missing_zwave_zigbee_title": "{integration} is not setup",
             "missing_zwave_zigbee": "To add a {brand} device, you first need {supported_hardware_link} and the {integration} integration set up. If you already have the hardware then you can proceed with the setup of {integration}.",
@@ -5369,11 +5369,11 @@
           "confirm_set_dataset_border_router_text": "Usync Assistant will join an existing Thread network. Any devices that are currently joined on this Usync Assistant Thread network will need to be re-joined.",
           "otbr_config_failed": "Failed to configure the border router",
           "confirm_delete_dataset": "Delete {name} dataset?",
-          "confirm_delete_dataset_text": "This network will be removed from Home Assistant.",
+          "confirm_delete_dataset_text": "This network will be removed from Usync Assistant.",
           "no_border_routers": "No border routers found",
           "no_preferred_router": "No preferred border router defined",
           "border_routers": "{count} border {count, plural,\n  one {router}\n  other {routers}\n}",
-          "managed_by_home_assistant": "Managed by Home Assistant",
+          "managed_by_home_assistant": "Managed by Usync Assistant",
           "operational_dataset": "Operational dataset",
           "change_channel": "Change channel",
           "change_channel_initiated_title": "Channel change in progress",
@@ -5599,7 +5599,7 @@
           "hard_reset_controller": {
             "NotStarted": {
               "title": "Reset controller to factory settings",
-              "body": "If you decide to move forward, you will reset your controller to factory settings. As a result, the controller will forget all devices it is paired with and all Z-Wave devices for this network will be removed from Home Assistant. If there are any devices still paired with the controller when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
+              "body": "If you decide to move forward, you will reset your controller to factory settings. As a result, the controller will forget all devices it is paired with and all Z-Wave devices for this network will be removed from Usync Assistant. If there are any devices still paired with the controller when it is reset, they will have to go through the exclusion process before they can be re-paired. Would you like to continue?"
             },
             "InProgress": {
               "title": "Resetting controller",
@@ -5775,7 +5775,7 @@
             "included": "Included",
             "not_included": "Not Included",
             "confirm_unprovision_title": "Are you sure you want to unprovision the device?",
-            "confirm_unprovision_text": "If you unprovision the device it will not be added to Usync Assistant when it is powered on. If it is already added to Home Assistant, removing the provisioned device will not remove it from Home Assistant."
+            "confirm_unprovision_text": "If you unprovision the device it will not be added to Usync Assistant when it is powered on. If it is already added to Usync Assistant, removing the provisioned device will not remove it from Usync Assistant."
           },
           "security_classes": {
             "None": {
@@ -5800,7 +5800,7 @@
           },
           "remove_node": {
             "title": "Remove a Z-Wave device",
-            "introduction": "Remove a device from your Z-Wave network, and remove the associated device and entities from Home Assistant.",
+            "introduction": "Remove a device from your Z-Wave network, and remove the associated device and entities from Usync Assistant.",
             "start_exclusion": "Start exclusion",
             "cancel_exclusion": "Cancel exclusion",
             "controller_in_exclusion_mode": "Your Z-Wave controller is now in exclusion mode.",
@@ -6062,7 +6062,7 @@
         },
         "analytics": {
           "caption": "Analytics",
-          "description": "Learn how to share data to improve Home Assistant",
+          "description": "Learn how to share data to improve Usync Assistant",
           "preferences": {
             "base": {
               "title": "Basic analytics",
@@ -6070,7 +6070,7 @@
             },
             "usage": {
               "title": "Usage",
-              "description": "Details of what you use with Home Assistant"
+              "description": "Details of what you use with Usync Assistant"
             },
             "statistics": {
               "title": "Statistical data",
@@ -6232,7 +6232,7 @@
           "integration_start_time": "Integration startup time"
         },
         "system_dashboard": {
-          "restart_homeassistant": "Restart Home Assistant"
+          "restart_homeassistant": "Restart Usync Assistant"
         }
       },
       "lovelace": {
@@ -6670,7 +6670,7 @@
           },
           "save_config": {
             "header": "Take control of your dashboard",
-            "para": "This dashboard is currently being maintained by Home Assistant. It is automatically updated when new entities or dashboard components become available. If you take control, this dashboard will no longer be automatically updated. You can always create a new dashboard in configuration to play around with.",
+            "para": "This dashboard is currently being maintained by Usync Assistant. It is automatically updated when new entities or dashboard components become available. If you take control, this dashboard will no longer be automatically updated. You can always create a new dashboard in configuration to play around with.",
             "para_sure": "Are you sure you want to take control of your user interface?",
             "yaml_mode": "You are using YAML mode for this dashboard, which means you cannot change your dashboard config from the UI. If you want to manage this dashboard from the UI, remove 'mode: yaml' from your dashboard configuration in 'configuration.yaml.'.",
             "yaml_control": "To take control in YAML mode, create a YAML file with the name you specified in your config for this dashboard, or the default 'ui-lovelace.yaml'.",
@@ -6935,7 +6935,7 @@
             },
             "iframe": {
               "name": "Webpage",
-              "description": "The Webpage card allows you to embed your favorite webpage right into Home Assistant."
+              "description": "The Webpage card allows you to embed your favorite webpage right into Usync Assistant."
             },
             "light": {
               "name": "Light",
@@ -7777,7 +7777,7 @@
             "demo_by": "by {name}",
             "next_demo": "Next demo",
             "introduction": "Welcome home! You've reached the Usync Assistant demo where we showcase the best UIs created by our community.",
-            "learn_more": "Learn more about Home Assistant"
+            "learn_more": "Learn more about Usync Assistant"
           }
         },
         "config": {
@@ -7838,7 +7838,7 @@
         "tabs": {
           "assist": {
             "title": "Sentences parser",
-            "description": "Enter sentences and see how they will be parsed by Home Assistant. Each line will be processed as an individual sentence. Intents will not be executed on your instance.",
+            "description": "Enter sentences and see how they will be parsed by Usync Assistant. Each line will be processed as an individual sentence. Intents will not be executed on your instance.",
             "parse_sentences": "Parse sentences",
             "sentences": "Sentences",
             "download_results": "Download results",
@@ -7874,7 +7874,7 @@
           },
           "actions": {
             "title": "Actions",
-            "description": "The actions dev tool allows you to perform any action available in Home Assistant.",
+            "description": "The actions dev tool allows you to perform any action available in Usync Assistant.",
             "call_service": "Perform action",
             "response": "Response",
             "column_parameter": "Parameter",
@@ -7906,7 +7906,7 @@
           },
           "states": {
             "title": "States",
-            "description1": "Set the current state representation of an entity within Home Assistant.",
+            "description1": "Set the current state representation of an entity within Usync Assistant.",
             "description2": "If the entity belongs to a device, there will be no actual communication with that device.",
             "entity": "Entity",
             "state": "State",
@@ -8086,11 +8086,11 @@
                 "themes": "Themes"
               },
               "server_management": {
-                "heading": "Home Assistant",
+                "heading": "Usync Assistant",
                 "restart": "Restart",
                 "stop": "Stop",
-                "confirm_stop": "Are you sure you want to stop Home Assistant?",
-                "restart_error": "Failed to restart Home Assistant"
+                "confirm_stop": "Are you sure you want to stop Usync Assistant?",
+                "restart_error": "Failed to restart Usync Assistant"
               }
             }
           }
@@ -8219,7 +8219,7 @@
       "custom": {
         "external_panel": {
           "question_trust": "Do you trust the external panel {name} at {link}?",
-          "complete_access": "It will have access to all data in Home Assistant.",
+          "complete_access": "It will have access to all data in Usync Assistant.",
           "hide_message": "Check docs for the panel_custom component to hide this message"
         }
       },
@@ -8273,7 +8273,7 @@
     }
   },
   "landing-page": {
-    "header": "Preparing Home Assistant",
+    "header": "Preparing Usync Assistant",
     "subheader": "This may take 20 minutes or more",
     "show_details": "Show details",
     "hide_details": "Hide details",
@@ -8296,8 +8296,8 @@
       "retry": "Retry",
       "download_logs": "[%key:ui::panel::config::logs::download_logs%]"
     },
-    "error_title": "Error installing Home Assistant",
-    "error_description": "An error occurred while installing Home Assistant. Please check the logs for more information.",
+    "error_title": "Error installing Usync Assistant",
+    "error_description": "An error occurred while installing Usync Assistant. Please check the logs for more information.",
     "ui": {
       "panel": {
         "page-onboarding": {
@@ -8363,7 +8363,7 @@
         "hostname": "Hostname",
         "new_update_available": "{name} {version} is available",
         "not_available_arch": "This add-on is not compatible with the processor of your device or the operating system you have installed on your device.",
-        "not_available_version": "You are running Usync Assistant {core_version_installed}, to update to this version of the add-on you need at least version {core_version_needed} of Home Assistant",
+        "not_available_version": "You are running Usync Assistant {core_version_installed}, to update to this version of the add-on you need at least version {core_version_needed} of Usync Assistant",
         "visit_addon_page": "Visit the {name} page for more details.",
         "restart": "restart",
         "start": "start",
@@ -8416,11 +8416,11 @@
           },
           "auth_api": {
             "title": "Usync Assistant authentication",
-            "description": "An add-on can authenticate users against Home Assistant, allowing add-ons to give users the possibility to log into applications running inside add-ons, using their Usync Assistant username/password. This badge indicates if the add-on author requests this capability."
+            "description": "An add-on can authenticate users against Usync Assistant, allowing add-ons to give users the possibility to log into applications running inside add-ons, using their Usync Assistant username/password. This badge indicates if the add-on author requests this capability."
           },
           "ingress": {
             "title": "Ingress",
-            "description": "This add-on is using Ingress to embed its interface securely into Home Assistant."
+            "description": "This add-on is using Ingress to embed its interface securely into Usync Assistant."
           },
           "signed": {
             "title": "Signed",
@@ -8610,7 +8610,7 @@
         "update_supervisor": "Update the Supervisor",
         "channel": "Channel",
         "leave_beta_action": "Leave beta channel",
-        "leave_beta_description": "Get stable updates for Home Assistant, Supervisor and host",
+        "leave_beta_description": "Get stable updates for Usync Assistant, Supervisor and host",
         "join_beta_action": "Join beta channel",
         "join_beta_description": "Get beta updates for Usync Assistant (RCs), Supervisor and host",
         "share_diagnostics": "Share diagnostics",
@@ -8618,7 +8618,7 @@
         "reload_supervisor": "Reload Supervisor",
         "warning": "WARNING",
         "search": "Search",
-        "share_diagonstics_title": "Help improve Home Assistant",
+        "share_diagonstics_title": "Help improve Usync Assistant",
         "share_diagonstics_description": "Would you want to automatically share crash reports and diagnostic information when the Supervisor encounters unexpected errors? {line_break} This will allow us to fix the problems, the information is only accessible to the Usync Assistant Core team and will not be shared with others.{line_break} The data does not include any private/sensitive information and you can disable this in settings at any time you want.",
         "unsupported_reason": {
           "apparmor": "AppArmor is not enabled on the host",
